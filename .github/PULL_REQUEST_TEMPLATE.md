@@ -33,6 +33,7 @@ Describe the user-facing change and why it is needed.
 ## News fragment
 
 - [ ] User-visible changes should add a Towncrier fragment under `newsfragments/<issue>.<type>.rst` unless the PR carries the `no-news-required` label.
+- [ ] For transport- or protocol-specific changes, optionally place the fragment in `newsfragments/<section>/<issue>.<type>.rst` using a configured section such as `asrl`, `gpib`, `tcpip`, `usb`, or `vicp`.
 - [ ] Chosen fragment type: `feature`, `bugfix`, `doc`, `removal`, or `misc`.
 - [ ] If the PR does not require a changelog entry, add the `no-news-required` label instead of creating a fragment.
 
